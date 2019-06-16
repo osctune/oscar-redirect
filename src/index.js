@@ -1,6 +1,6 @@
 const express = require('express');
 const asyncHandler = require('express-async-handler');
-const { findUrl, mongo } = require('@nam3/oscar-util');
+const { findUrl, mongo } = require('@nam3/oscar-db');
 
 const app = express();
 
@@ -8,9 +8,10 @@ const app = express();
 const {
     PORT=1337,
     MONGO_URI,
+    MONGO_DBNAME,
 } = process.env;
 
-const connection = mongo(MONGO_URI);
+const connection = mongo(MONGO_URI, MONGO_DBNAME);
 
 app.get('/:hash', asyncHandler(async (req, res) => {
     await connection(async db => {
