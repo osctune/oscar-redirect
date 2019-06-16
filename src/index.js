@@ -6,7 +6,7 @@ const app = express();
 
 // Get enviorment variables.
 const {
-    PORT,
+    PORT=1337,
     MONGO_URI,
 } = process.env;
 
