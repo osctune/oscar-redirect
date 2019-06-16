@@ -9,6 +9,10 @@
     "dev": "cross-env nodemon server",
     "start": "cross-env node server"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osctune/oscar-redirect.git"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "express-async-handler": "^1.1.4",
@@ -16,5 +20,9 @@
   },
   "devDependencies": {
     "cross-env": "^5.2.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/osctune/oscar-redirect/issues"
+  },
+  "homepage": "https://github.com/osctune/oscar-redirect#readme"
 }
