@@ -6,8 +6,8 @@
   "author": "Oscar Tunebing <tunebingo@gmail.com",
   "license": "MIT",
   "scripts": {
-    "redirect": "cross-env MODE=redirect WEBPACK_DEV=true nodemon server",
-    "start": "cross-env WEBPACK_DEV=true nodemon server"
+    "dev": "cross-env nodemon server",
+    "start": "cross-env node server"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -15,6 +15,6 @@
     "mongodb": "^3.2.7"
   },
   "devDependencies": {
-    "webpack-dev-middleware": "^3.7.0"
+    "cross-env": "^5.2.0"
   }
 }
