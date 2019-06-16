@@ -1,7 +1,7 @@
 {
-  "name": "@nam3/oscar-server",
-  "version": "1.0.0",
-  "description": "Server for OSCAR",
+  "name": "@nam3/oscar-redirect",
+  "version": "0.1.0",
+  "description": "Redirect server for OSCAR",
   "main": "src/index.js",
   "author": "Oscar Tunebing <tunebingo@gmail.com",
   "license": "MIT",
