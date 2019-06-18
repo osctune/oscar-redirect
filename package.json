@@ -13,10 +13,10 @@
     "url": "git+https://github.com/osctune/oscar-redirect.git"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "express-async-handler": "^1.1.4",
     "@nam3/oscar-db": "git+https://git@github.com/osctune/oscar-db.git",
-    "@nam3/oscar-util": "git+https://git@github.com/osctune/oscar-util.git"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
